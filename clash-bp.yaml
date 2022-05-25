@@ -5,183 +5,247 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_n523_85, server: hk-i.sserver.top, port: 80, type: vmess, uuid: 8cb5bcba-8b7f-3141-a400-351a83c80f09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk-i.sserver.top}, udp: true}
-  - {name: _CN_n523_275, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _CN_n523_403, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _KR_n523_27, server: 3.38.116.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_n523_231, server: gy.cwcsrsyby.xyz, port: 47513, type: vmess, uuid: 2a30f24e-c164-3f34-a99d-e9107655cf49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
-  - {name: _CN_n523_404, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _JP_n523_483, server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: jp1.trojan.tel, skip-cert-verify: true, udp: true}
-  - {name: _CN_n523_134, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_124, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_127, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_137, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_108, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_131, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_109, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_130, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_125, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 2, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_138, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_126, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_128, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_136, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_129, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 3, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: _CN_n523_135, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 4, server: 211.91.243.240, port: 31215, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _CN_n523_132, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_n523_234, server: 521hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 521hk.fans8.xyz}, udp: true}
-  - {name: _RU_n523_318, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: null_n523_204, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _RU_n523_370, server: 213.183.53.208, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: n523_218, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
-  - {name: _RU_n523_359, server: 213.183.53.208, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: _CN_n523_71, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: _油管频道：全网最强白嫖 5, server: 211.91.243.240, port: 31201, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_n523_444, server: 172.66.47.44, port: 2053, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: xxX2, ws-headers: {Host: web1.wweblog.pw}, udp: true}
-  - {name: _US_n523_305, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: _CN_n523_30, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: _US_n523_258, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: _油管频道：全网最强白嫖 6, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51jp1.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖, server: 521hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 521hk.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 2, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 3, server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 426hk.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 4, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51jp1.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 5, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 6, server: sg.hmanhng.ml, port: 80, type: vmess, uuid: 64dc6822-93ec-4079-a5a5-9cbd307e158f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hmanhng, ws-headers: {Host: chithoi.akamaized.net}, udp: true}
+  - {name: _youtube：全网最强白嫖 7, server: 205.185.124.145, port: 85, type: vmess, uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-aweikeji}, udp: true}
+  - {name: _youtube：全网最强白嫖 8, server: 205.185.124.145, port: 85, type: vmess, uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 205.185.124.145}, udp: true}
+  - {name: _youtube：全网最强白嫖 9, server: hk.funan.space, port: 443, type: vmess, uuid: 071a2d80-1f59-4ad1-8eaa-50d335e8a0e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0567e1d44aa0969/, ws-headers: {Host: hk.funan.space}, udp: true}
+  - {name: _youtube：全网最强白嫖 10, server: 523hk1.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 523hk1.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 11, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 12, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 422wkl.fans8.xyz}, udp: true}
+  - {name: youtube：全网最强白嫖, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: youtube：全网最强白嫖 2, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: _youtube：全网最强白嫖 13, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: _youtube：全网最强白嫖 14, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 15, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: youtube：全网最强白嫖 3, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: youtube：全网最强白嫖 4, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: youtube：全网最强白嫖 5, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: _youtube：全网最强白嫖 16, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 17, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
+  - {name: youtube：全网最强白嫖 6, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: _youtube：全网最强白嫖 18, server: zzcm09.bdate.xyz, port: 1040, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: _youtube：全网最强白嫖 19, server: zzcm09.bdate.xyz, port: 1350, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 20, server: zzcm09.bdate.xyz, port: 1420, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
+  - {name: _youtube：全网最强白嫖 21, server: 20.24.84.179, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: _youtube：全网最强白嫖 22, server: 20.214.187.164, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: _youtube：全网最强白嫖 23, server: jp3.2046.gq, port: 8443, type: vmess, uuid: 1eedf4cc-dba4-4a5e-9e57-cc0470c0a45d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp3.2046.gq}, udp: true}
+  - {name: _youtube：全网最强白嫖 24, server: 213.183.59.214, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: _youtube：全网最强白嫖 25, server: gy.cwcsrsyby.xyz, port: 10001, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 26, server: gy.cwcsrsyby.xyz, port: 10002, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 27, server: whcu.cwcsrsyby.xyz, port: 10005, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: whcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 28, server: whcu.cwcsrsyby.xyz, port: 10007, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: whcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 29, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _youtube：全网最强白嫖 30, server: sh.moonfree.top, port: 11267, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rackedgeuk510.moonfree.top}, udp: true}
+  - {name: _youtube：全网最强白嫖 31, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 32, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 33, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 34, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 35, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 36, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 37, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 38, server: 220.158.232.150, port: 16616, type: vmess, uuid: 59a8f92b-62c0-431e-9b28-a91c43056a6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: DanHuang.Jiang}, udp: true}
+  - {name: _youtube：全网最强白嫖 39, server: 14.29.124.168, port: 24036, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _youtube：全网最强白嫖 40, server: 14.29.124.168, port: 24042, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _youtube：全网最强白嫖 41, server: 14.29.124.168, port: 24081, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _youtube：全网最强白嫖 42, server: 14.29.124.168, port: 24098, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _youtube：全网最强白嫖 43, server: russia.okzdns.com, port: 33306, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: russia.okzdns.com, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 44, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: _youtube：全网最强白嫖 45, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: _youtube：全网最强白嫖 46, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: _youtube：全网最强白嫖 47, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: _youtube：全网最强白嫖 48, server: yn-74.okzdns.com, port: 55501, type: trojan, password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, sni: yn-74.okzdns.com, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 49, server: jp04.vproxy.us, port: 56565, type: trojan, password: 066771f4-b7f5-426a-bbb2-5fecfe9190f5, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 50, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: cb3cef47-cb7d-386f-af3b-452345d17816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -200,46 +264,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -250,137 +330,185 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -396,46 +524,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_n523_85
-      - _CN_n523_275
-      - _CN_n523_403
-      - _KR_n523_27
-      - _CN_n523_231
-      - _油管频道：全网最强白嫖
-      - _CN_n523_404
-      - _JP_n523_483
-      - _CN_n523_134
-      - _CN_n523_124
-      - _CN_n523_127
-      - _CN_n523_137
-      - _CN_n523_108
-      - _CN_n523_131
-      - _CN_n523_109
-      - _CN_n523_130
-      - _CN_n523_125
-      - _油管频道：全网最强白嫖 2
-      - _CN_n523_138
-      - _CN_n523_126
-      - _CN_n523_128
-      - _CN_n523_136
-      - _CN_n523_129
-      - _油管频道：全网最强白嫖 3
-      - _CN_n523_135
-      - _油管频道：全网最强白嫖 4
-      - _CN_n523_132
-      - _CN_n523_234
-      - _RU_n523_318
-      - null_n523_204
-      - _RU_n523_370
-      - n523_218
-      - _RU_n523_359
-      - _CN_n523_71
-      - _油管频道：全网最强白嫖 5
-      - _US_n523_444
-      - _US_n523_305
-      - _CN_n523_30
-      - _US_n523_258
-      - _油管频道：全网最强白嫖 6
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 7
+      - _youtube：全网最强白嫖 8
+      - _youtube：全网最强白嫖 9
+      - _youtube：全网最强白嫖 10
+      - _youtube：全网最强白嫖 11
+      - _youtube：全网最强白嫖 12
+      - youtube：全网最强白嫖
+      - youtube：全网最强白嫖 2
+      - _youtube：全网最强白嫖 13
+      - _youtube：全网最强白嫖 14
+      - _youtube：全网最强白嫖 15
+      - youtube：全网最强白嫖 3
+      - youtube：全网最强白嫖 4
+      - youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 16
+      - _youtube：全网最强白嫖 17
+      - youtube：全网最强白嫖 6
+      - _youtube：全网最强白嫖 18
+      - _youtube：全网最强白嫖 19
+      - _youtube：全网最强白嫖 20
+      - _youtube：全网最强白嫖 21
+      - _youtube：全网最强白嫖 22
+      - _youtube：全网最强白嫖 23
+      - _youtube：全网最强白嫖 24
+      - _youtube：全网最强白嫖 25
+      - _youtube：全网最强白嫖 26
+      - _youtube：全网最强白嫖 27
+      - _youtube：全网最强白嫖 28
+      - _youtube：全网最强白嫖 29
+      - _youtube：全网最强白嫖 30
+      - _youtube：全网最强白嫖 31
+      - _youtube：全网最强白嫖 32
+      - _youtube：全网最强白嫖 33
+      - _youtube：全网最强白嫖 34
+      - _youtube：全网最强白嫖 35
+      - _youtube：全网最强白嫖 36
+      - _youtube：全网最强白嫖 37
+      - _youtube：全网最强白嫖 38
+      - _youtube：全网最强白嫖 39
+      - _youtube：全网最强白嫖 40
+      - _youtube：全网最强白嫖 41
+      - _youtube：全网最强白嫖 42
+      - _youtube：全网最强白嫖 43
+      - _youtube：全网最强白嫖 44
+      - _youtube：全网最强白嫖 45
+      - _youtube：全网最强白嫖 46
+      - _youtube：全网最强白嫖 47
+      - _youtube：全网最强白嫖 48
+      - _youtube：全网最强白嫖 49
+      - _youtube：全网最强白嫖 50
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
