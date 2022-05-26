@@ -3,4 +3,4 @@ Config files for `Clash` and `V2Ray`. \
 The resource is not original, but collected from the Internet.
 
 clash-bp / v2ray: https://www.youtube.com/channel/UCX0G0TLANlxVDugOTw-hsNw \
-clash-pj / varay: https://www.youtube.com/user/microkiawp7/videos
+clash-pj / v2ray: https://www.youtube.com/user/microkiawp7/videos
