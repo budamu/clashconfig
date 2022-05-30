@@ -1,4 +1,4 @@
-# Config files for `Clash` and `V2Ray`
+## Config files for `Clash` and `V2Ray`
 
 Subscription URL: \
 clash-bp: https://raw.githubusercontent.com/budamu/clashconfig/main/clash-bp.yaml \
