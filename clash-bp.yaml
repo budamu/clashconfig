@@ -5,159 +5,94 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 油管：全网最强白嫖, server: 13.112.89.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 油管：全网最强白嫖 2, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 3, server: twsxxnhk.158801.xyz, port: 80, type: vmess, uuid: cad66039-3914-42d0-bc90-debef902f88b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: 油管：全网最强白嫖 4, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 5, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 6, server: 13.215.203.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 油管：全网最强白嫖 7, server: 52.221.216.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 油管：全网最强白嫖 8, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 9, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 10, server: 38.114.114.67, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管：全网最强白嫖 11, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 12, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.71.225}, udp: true}
-  - {name: 油管：全网最强白嫖 13, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: 油管：全网最强白嫖 14, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 15, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 16, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 17, server: 20.222.12.59, port: 80, type: vmess, uuid: cad66039-3914-42d0-bc90-debef902f88b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: 油管：全网最强白嫖 18, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 19, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 油管：全网最强白嫖 20, server: 38.68.135.19, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 油管：全网最强白嫖 21, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 23, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 24, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管：全网最强白嫖 25, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 油管：全网最强白嫖 26, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 27, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 油管：全网最强白嫖 28, server: 34.211.206.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 油管：全网最强白嫖 29, server: 38.68.135.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 油管：全网最强白嫖 30, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 31, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 32, server: rackedgeuk510.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rackedgeuk510.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 33, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 油管：全网最强白嫖 34, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 35, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 油管：全网最强白嫖 36, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 油管：全网最强白嫖 37, server: 38.68.135.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 油管：全网最强白嫖 38, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管：全网最强白嫖 39, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 油管：全网最强白嫖 40, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 41, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 42, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管：全网最强白嫖 43, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
-  - {name: 油管：全网最强白嫖 44, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 45, server: 185.126.116.125, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 油管：全网最强白嫖 46, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 47, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 48, server: 331tw9.fans8.xyz, port: 443, type: trojan, password: 4b8f1bc5-9b36-4df8-9e4f-5864b330632f, sni: 331tw9.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 49, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.69.62}, udp: true}
-  - {name: 油管：全网最强白嫖 50, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 油管：全网最强白嫖 51, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 油管：全网最强白嫖 52, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 油管：全网最强白嫖 53, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 油管：全网最强白嫖 54, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 55, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 56, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 油管：全网最强白嫖 57, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 油管：全网最强白嫖 58, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
-  - {name: 油管：全网最强白嫖 59, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 60, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 61, server: twsxxnjp.158801.xyz, port: 30915, type: trojan, password: cad66039-3914-42d0-bc90-debef902f88b, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 62, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 63, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 64, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 65, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 66, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 油管：全网最强白嫖 67, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 油管：全网最强白嫖 68, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 油管：全网最强白嫖 69, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 70, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 71, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: 油管：全网最强白嫖 72, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 73, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, sni: neteasy.ga, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 74, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 75, server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 76, server: 129.226.213.30, port: 35006, type: vmess, uuid: 1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 77, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 78, server: 129.226.216.81, port: 40952, type: vmess, uuid: d65aa42c-4102-48d7-d055-b24ea0c8fe91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 79, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 80, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 81, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 82, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 83, server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 84, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 4b8f1bc5-9b36-4df8-9e4f-5864b330632f, sni: 527hk5.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 85, server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 86, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
-  - {name: 油管：全网最强白嫖 87, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 油管：全网最强白嫖 88, server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 89, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 90, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 91, server: 129.226.216.160, port: 49056, type: vmess, uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 92, server: 129.226.94.247, port: 15301, type: vmess, uuid: 16844453-6154-4808-bdda-a26741ebe677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 93, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 油管：全网最强白嫖 94, server: 129.226.216.124, port: 14728, type: vmess, uuid: eea3d090-e068-4b74-8039-91fd79218d1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 95, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 油管：全网最强白嫖 96, server: tx49sg.fans8.xyz, port: 443, type: trojan, password: 4b8f1bc5-9b36-4df8-9e4f-5864b330632f, sni: tx49sg.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 97, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 油管：全网最强白嫖 98, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 99, server: 129.226.215.218, port: 39758, type: vmess, uuid: e1afb696-1e40-4a45-e6de-792c1bd94038, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 100, server: 129.226.216.81, port: 40952, type: vmess, uuid: d65aa42c-4102-48d7-d055-b24ea0c8fe91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 101, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 102, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 油管：全网最强白嫖 103, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 104, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 105, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 106, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 107, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 108, server: 129.226.214.156, port: 27734, type: vmess, uuid: 8f4cd612-6593-4826-bb55-09bed5215aed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 109, server: 129.226.216.160, port: 49056, type: vmess, uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 110, server: 129.226.94.152, port: 56382, type: vmess, uuid: b14dc53a-1505-4909-8f23-2f9391e30d56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 111, server: 213.183.59.190, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 油管：全网最强白嫖 112, server: 213.183.59.214, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 油管：全网最强白嫖 113, server: 129.226.216.121, port: 49381, type: vmess, uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 114, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 油管：全网最强白嫖 115, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 116, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 117, server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 118, server: 3.35.207.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 油管：全网最强白嫖 119, server: 129.226.215.218, port: 39758, type: vmess, uuid: e1afb696-1e40-4a45-e6de-792c1bd94038, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 120, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 油管：全网最强白嫖 121, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 122, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 123, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 124, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 125, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 126, server: hk.zzk8.me, port: 51009, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 127, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 128, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 129, server: hk.zzk8.me, port: 51007, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 130, server: 185.126.116.117, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 油管：全网最强白嫖 131, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 132, server: hk.zzk8.me, port: 51005, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 133, server: 43.129.200.215, port: 46232, type: vmess, uuid: a6174b94-7340-440c-a505-2acf39f591f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 134, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 135, server: 129.226.215.218, port: 39758, type: vmess, uuid: e1afb696-1e40-4a45-e6de-792c1bd94038, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 136, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 137, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 138, server: hk.zzk8.me, port: 51008, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 139, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 140, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 油管：全网最强白嫖 141, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
-  - {name: 油管：全网最强白嫖 142, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 143, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: 油管：全网最强白嫖 144, server: 132.226.22.158, port: 48921, type: vmess, uuid: b23e8a7b-f809-47ab-8519-6f24452399a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 145, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 油管：全网最强白嫖 146, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.222.106.239}, udp: true}
-  - {name: 油管：全网最强白嫖 147, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 148, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 149, server: 129.226.94.247, port: 15301, type: vmess, uuid: 16844453-6154-4808-bdda-a26741ebe677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 150, server: 129.226.216.121, port: 49381, type: vmess, uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 151, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 152, server: 152.70.234.70, port: 26701, type: vmess, uuid: 05f824f3-4724-4344-b26b-9edd602874bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖 153, server: 129.226.215.95, port: 43613, type: vmess, uuid: 9e1be3ad-911d-4dcc-822f-f8f8e79f62e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管：全网最强白嫖, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 4b416ebb-53a5-4d72-8bda-345c25934cd4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: _油管：全网最强白嫖, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: cn.zzv05.infonode.xyz, port: 17016, type: vmess, uuid: edac1153-eff4-3719-92a3-c7620ea00bd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.zzv05.infonode.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: cn.zzv01.infonode.xyz, port: 17011, type: vmess, uuid: edac1153-eff4-3719-92a3-c7620ea00bd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.zzv01.infonode.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: cn.zzv07.infonode.xyz, port: 17011, type: vmess, uuid: edac1153-eff4-3719-92a3-c7620ea00bd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.zzv07.infonode.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: cn.zzv07.infonode.xyz, port: 17016, type: vmess, uuid: edac1153-eff4-3719-92a3-c7620ea00bd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.zzv07.infonode.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 12, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 13, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 14, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 15, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 16, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 17, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 18, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: _油管：全网最强白嫖 19, server: 83.229.73.60, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: _油管：全网最强白嫖 20, server: 36.158.244.20, port: 25042, type: ss, cipher: chacha20-ietf-poly1305, password: 7b561e94-42f3-4f92-979c-4cf97c328025, udp: true}
+  - {name: _油管：全网最强白嫖 21, server: 101.67.8.226, port: 25182, type: ss, cipher: chacha20-ietf-poly1305, password: 7b561e94-42f3-4f92-979c-4cf97c328025, udp: true}
+  - {name: _油管：全网最强白嫖 22, server: 116.129.253.134, port: 3383, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 23, server: 116.129.253.134, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 24, server: 103.56.62.145, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 25, server: 120.233.186.250, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 26, server: zgao.xyz, port: 443, type: trojan, password: nsTcmFBI, sni: zgao.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 27, server: 116.129.253.134, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 28, server: 20.187.100.205, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 29, server: 116.129.253.134, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 30, server: 120.233.186.250, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 31, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 32, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 33, server: 106.75.168.104, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 34, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 35, server: 106.75.168.104, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 36, server: 116.129.253.134, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 37, server: 120.233.186.250, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 38, server: 120.233.186.59, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 39, server: 120.233.186.59, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 40, server: 113.31.109.30, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 41, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 42, server: 120.233.186.204, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 43, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 44, server: 120.233.186.71, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 45, server: 116.129.253.134, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 46, server: 120.233.186.204, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 47, server: 117.50.106.86, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 48, server: 211.72.35.153, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 49, server: 113.31.109.30, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 50, server: 117.50.106.86, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 51, server: 120.233.186.204, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 52, server: 116.129.253.245, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 53, server: 103.56.62.145, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 54, server: 120.233.186.59, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 55, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 56, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 57, server: 120.233.186.71, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 58, server: 113.31.109.30, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 59, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 60, server: 116.129.253.245, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 61, server: 106.75.168.104, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 62, server: 20.187.100.205, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 63, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 64, server: 116.129.253.245, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 65, server: 20.210.229.72, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 66, server: 103.56.62.145, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 67, server: 117.50.106.86, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 68, server: 103.56.62.145, port: 3383, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 69, server: 211.72.35.153, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 70, server: 120.233.186.71, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 71, server: 103.56.62.145, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 72, server: 211.72.35.153, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 73, server: 103.56.62.145, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 74, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 75, server: 20.187.100.205, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 76, server: 120.132.50.158, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 77, server: 120.132.50.158, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 78, server: usa005.369boy.com, port: 15001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa005.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 79, server: 120.132.50.158, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 80, server: 113.31.155.165, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 81, server: usa006.369boy.com, port: 16001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa006.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 82, server: 113.31.155.165, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 83, server: 113.31.155.165, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 84, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 85, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: mlxy-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 86, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: mlxy-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 87, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -165,316 +100,186 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -482,158 +287,93 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -653,158 +393,93 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -816,316 +491,186 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1133,158 +678,93 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1301,158 +781,93 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 油管：全网最强白嫖
-      - 油管：全网最强白嫖 2
-      - 油管：全网最强白嫖 3
-      - 油管：全网最强白嫖 4
-      - 油管：全网最强白嫖 5
-      - 油管：全网最强白嫖 6
-      - 油管：全网最强白嫖 7
-      - 油管：全网最强白嫖 8
-      - 油管：全网最强白嫖 9
-      - 油管：全网最强白嫖 10
-      - 油管：全网最强白嫖 11
-      - 油管：全网最强白嫖 12
-      - 油管：全网最强白嫖 13
-      - 油管：全网最强白嫖 14
-      - 油管：全网最强白嫖 15
-      - 油管：全网最强白嫖 16
-      - 油管：全网最强白嫖 17
-      - 油管：全网最强白嫖 18
-      - 油管：全网最强白嫖 19
-      - 油管：全网最强白嫖 20
-      - 油管：全网最强白嫖 21
-      - 油管：全网最强白嫖 22
-      - 油管：全网最强白嫖 23
-      - 油管：全网最强白嫖 24
-      - 油管：全网最强白嫖 25
-      - 油管：全网最强白嫖 26
-      - 油管：全网最强白嫖 27
-      - 油管：全网最强白嫖 28
-      - 油管：全网最强白嫖 29
-      - 油管：全网最强白嫖 30
-      - 油管：全网最强白嫖 31
-      - 油管：全网最强白嫖 32
-      - 油管：全网最强白嫖 33
-      - 油管：全网最强白嫖 34
-      - 油管：全网最强白嫖 35
-      - 油管：全网最强白嫖 36
-      - 油管：全网最强白嫖 37
-      - 油管：全网最强白嫖 38
-      - 油管：全网最强白嫖 39
-      - 油管：全网最强白嫖 40
-      - 油管：全网最强白嫖 41
-      - 油管：全网最强白嫖 42
-      - 油管：全网最强白嫖 43
-      - 油管：全网最强白嫖 44
-      - 油管：全网最强白嫖 45
-      - 油管：全网最强白嫖 46
-      - 油管：全网最强白嫖 47
-      - 油管：全网最强白嫖 48
-      - 油管：全网最强白嫖 49
-      - 油管：全网最强白嫖 50
-      - 油管：全网最强白嫖 51
-      - 油管：全网最强白嫖 52
-      - 油管：全网最强白嫖 53
-      - 油管：全网最强白嫖 54
-      - 油管：全网最强白嫖 55
-      - 油管：全网最强白嫖 56
-      - 油管：全网最强白嫖 57
-      - 油管：全网最强白嫖 58
-      - 油管：全网最强白嫖 59
-      - 油管：全网最强白嫖 60
-      - 油管：全网最强白嫖 61
-      - 油管：全网最强白嫖 62
-      - 油管：全网最强白嫖 63
-      - 油管：全网最强白嫖 64
-      - 油管：全网最强白嫖 65
-      - 油管：全网最强白嫖 66
-      - 油管：全网最强白嫖 67
-      - 油管：全网最强白嫖 68
-      - 油管：全网最强白嫖 69
-      - 油管：全网最强白嫖 70
-      - 油管：全网最强白嫖 71
-      - 油管：全网最强白嫖 72
-      - 油管：全网最强白嫖 73
-      - 油管：全网最强白嫖 74
-      - 油管：全网最强白嫖 75
-      - 油管：全网最强白嫖 76
-      - 油管：全网最强白嫖 77
-      - 油管：全网最强白嫖 78
-      - 油管：全网最强白嫖 79
-      - 油管：全网最强白嫖 80
-      - 油管：全网最强白嫖 81
-      - 油管：全网最强白嫖 82
-      - 油管：全网最强白嫖 83
-      - 油管：全网最强白嫖 84
-      - 油管：全网最强白嫖 85
-      - 油管：全网最强白嫖 86
-      - 油管：全网最强白嫖 87
-      - 油管：全网最强白嫖 88
-      - 油管：全网最强白嫖 89
-      - 油管：全网最强白嫖 90
-      - 油管：全网最强白嫖 91
-      - 油管：全网最强白嫖 92
-      - 油管：全网最强白嫖 93
-      - 油管：全网最强白嫖 94
-      - 油管：全网最强白嫖 95
-      - 油管：全网最强白嫖 96
-      - 油管：全网最强白嫖 97
-      - 油管：全网最强白嫖 98
-      - 油管：全网最强白嫖 99
-      - 油管：全网最强白嫖 100
-      - 油管：全网最强白嫖 101
-      - 油管：全网最强白嫖 102
-      - 油管：全网最强白嫖 103
-      - 油管：全网最强白嫖 104
-      - 油管：全网最强白嫖 105
-      - 油管：全网最强白嫖 106
-      - 油管：全网最强白嫖 107
-      - 油管：全网最强白嫖 108
-      - 油管：全网最强白嫖 109
-      - 油管：全网最强白嫖 110
-      - 油管：全网最强白嫖 111
-      - 油管：全网最强白嫖 112
-      - 油管：全网最强白嫖 113
-      - 油管：全网最强白嫖 114
-      - 油管：全网最强白嫖 115
-      - 油管：全网最强白嫖 116
-      - 油管：全网最强白嫖 117
-      - 油管：全网最强白嫖 118
-      - 油管：全网最强白嫖 119
-      - 油管：全网最强白嫖 120
-      - 油管：全网最强白嫖 121
-      - 油管：全网最强白嫖 122
-      - 油管：全网最强白嫖 123
-      - 油管：全网最强白嫖 124
-      - 油管：全网最强白嫖 125
-      - 油管：全网最强白嫖 126
-      - 油管：全网最强白嫖 127
-      - 油管：全网最强白嫖 128
-      - 油管：全网最强白嫖 129
-      - 油管：全网最强白嫖 130
-      - 油管：全网最强白嫖 131
-      - 油管：全网最强白嫖 132
-      - 油管：全网最强白嫖 133
-      - 油管：全网最强白嫖 134
-      - 油管：全网最强白嫖 135
-      - 油管：全网最强白嫖 136
-      - 油管：全网最强白嫖 137
-      - 油管：全网最强白嫖 138
-      - 油管：全网最强白嫖 139
-      - 油管：全网最强白嫖 140
-      - 油管：全网最强白嫖 141
-      - 油管：全网最强白嫖 142
-      - 油管：全网最强白嫖 143
-      - 油管：全网最强白嫖 144
-      - 油管：全网最强白嫖 145
-      - 油管：全网最强白嫖 146
-      - 油管：全网最强白嫖 147
-      - 油管：全网最强白嫖 148
-      - 油管：全网最强白嫖 149
-      - 油管：全网最强白嫖 150
-      - 油管：全网最强白嫖 151
-      - 油管：全网最强白嫖 152
-      - 油管：全网最强白嫖 153
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - _油管：全网最强白嫖 21
+      - _油管：全网最强白嫖 22
+      - _油管：全网最强白嫖 23
+      - _油管：全网最强白嫖 24
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
+      - _油管：全网最强白嫖 49
+      - _油管：全网最强白嫖 50
+      - _油管：全网最强白嫖 51
+      - _油管：全网最强白嫖 52
+      - _油管：全网最强白嫖 53
+      - _油管：全网最强白嫖 54
+      - _油管：全网最强白嫖 55
+      - _油管：全网最强白嫖 56
+      - _油管：全网最强白嫖 57
+      - _油管：全网最强白嫖 58
+      - _油管：全网最强白嫖 59
+      - _油管：全网最强白嫖 60
+      - _油管：全网最强白嫖 61
+      - _油管：全网最强白嫖 62
+      - _油管：全网最强白嫖 63
+      - _油管：全网最强白嫖 64
+      - _油管：全网最强白嫖 65
+      - _油管：全网最强白嫖 66
+      - _油管：全网最强白嫖 67
+      - _油管：全网最强白嫖 68
+      - _油管：全网最强白嫖 69
+      - _油管：全网最强白嫖 70
+      - _油管：全网最强白嫖 71
+      - _油管：全网最强白嫖 72
+      - _油管：全网最强白嫖 73
+      - _油管：全网最强白嫖 74
+      - _油管：全网最强白嫖 75
+      - _油管：全网最强白嫖 76
+      - _油管：全网最强白嫖 77
+      - _油管：全网最强白嫖 78
+      - _油管：全网最强白嫖 79
+      - _油管：全网最强白嫖 80
+      - _油管：全网最强白嫖 81
+      - _油管：全网最强白嫖 82
+      - _油管：全网最强白嫖 83
+      - _油管：全网最强白嫖 84
+      - _油管：全网最强白嫖 85
+      - _油管：全网最强白嫖 86
+      - _油管：全网最强白嫖 87
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
