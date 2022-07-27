@@ -1,3 +1,12 @@
+<style>
+table th:first-of-type {
+    width: 20%;
+}
+table th:nth-of-type(2) {
+    width: 80%;
+}
+</style>
+
 ## Config files for `Clash` and `V2Ray`
 
 ### Subscription URL:
