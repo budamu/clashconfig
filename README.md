@@ -3,7 +3,7 @@
 ### Subscription URL:
 
 **clash-bp**: <https://raw.githubusercontent.com/budamu/clashconfig/main/clash-bp.yaml><br>
-**clash-pj**: <https://raw.githubusercontent.com/budamu/clashconfig/main/clash-pj.yaml><br>
+**clash-pj**: <https://raw.githubusercontent.com/budamu/clashconfig/main/clash-pj.yml><br>
 **v2ray**: <https://raw.githubusercontent.com/budamu/clashconfig/main/v2ray.txt>
 
 ### Sources from the following channels:
