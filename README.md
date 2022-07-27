@@ -1,7 +1,6 @@
 ## Config files for `Clash` and `V2Ray`
 
 ### Subscription URL:
- | 
  -- | --
 - **clash-bp**:  | <https://raw.githubusercontent.com/budamu/clashconfig/main/clash.yaml><br>
 - **clash-pj**: | <https://raw.githubusercontent.com/budamu/clashconfig/main/clash.yml><br>
