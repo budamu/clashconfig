@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
-#  创建者：https://t.me/mfjdpd
-#  创建时间：2022-08-08 20:12:32
-#  模版：https://t.me/mfjdpd默认模版
-#  节点数量：151
+#  创建者：TG: https://t.me/mfjdpd
+#  创建时间：2022-08-16 14:55:23
+#  模版：TG: @mfjdpd
+#  节点数量：107
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,1096 +13,788 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_1","server":"165.154.5.235","port":"14444","uuid":"0eb9d2fa-17d1-4276-af80-15323dc1dca5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_2","server":"128.1.134.126","port":"6666","uuid":"7fb3b571-cda8-40f6-c9e6-db9765ea8faa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_3","server":"103.218.243.21","port":"10003","uuid":"4fe413ef-e3a2-40df-fba0-6d151dd3b2b4","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_4","server":"165.154.5.235","port":"14444","uuid":"0eb9d2fa-17d1-4276-af80-15323dc1dca5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_5","server":"azhk1.sharecentre.xyz","port":"26635","uuid":"74c466dd-b8c7-4a9e-b46b-3a4cc6889ca4","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_6","ws-opts":{"path":"/v2ray","headers":{"host":"avuhk04.xiaohouzi.club"}},"server":"avuhk04.xiaohouzi.club","port":"1558","uuid":"6dc17fdb-9bcd-3231-ad6a-6af308aef4cc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_1","server":"117.164.185.220","port":21004,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_2","server":"117.164.185.222","port":21004,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_3","server":"117.164.185.222","port":21005,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_4","server":"iepl1.pglmamle.xyz","port":9541,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_5","server":"iepl3.pglmamle.xyz","port":9541,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_6","server":"iepl2.pglmamle.xyz","port":9541,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_7","server":"117.164.185.222","port":21002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_8","server":"117.164.185.220","port":21001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇸🇬_YouTube：全网最强白嫖","ws-opts":{"path":"hy","headers":{"host":"YouTube-aweikeji"}},"server":"8.218.91.252","port":"33522","uuid":"418c4b6d-9ff2-4a45-bd3b-ae5bb8704109","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_9","server":"iepl3.pglmamle.xyz","port":9511,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_7","server":"23.91.100.243","port":"30862","uuid":"3b0f44e4-dd11-429d-c80f-615b10595db9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_10","server":"iepl2.pglmamle.xyz","port":9511,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_11","server":"120.197.130.62","port":21003,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_12","server":"117.164.185.220","port":21005,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_8","server":"23.91.100.243","port":"30862","uuid":"3b0f44e4-dd11-429d-c80f-615b10595db9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_1","server":"150.230.197.142","port":"53","uuid":"9f35deda-95a1-414f-ce47-b37c48e9b8df","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_13","server":"iepl1.pglmamle.xyz","port":9521,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_1","server":"140.83.34.234","port":"27384","uuid":"da463c52-34e4-4ace-f08e-c7cdfdf68d86","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_14","server":"120.197.130.62","port":61001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_15","server":"iepl1.pglmamle.xyz","port":9510,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_16","server":"120.197.130.62","port":61002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_2","server":"185.172.113.100","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_3","server":"185.172.113.100","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_4","server":"185.172.113.100","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_17","server":"117.164.185.220","port":61027,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_18","server":"iepl01.pglmamle.xyz","port":9561,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_5","server":"www.yangyongdeyu.tk","port":28882,"password":"bhKeElzUhs","udp":true,"skip-cert-verify":true,"sni":"www.yangyongdeyu.tk"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_6","server":"132.145.113.238","port":"443","uuid":"84b1b846-748c-45ca-839e-4e21f9acc6c5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_19","server":"120.197.130.62","port":11001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_20","server":"iepl02.pglmamle.xyz","port":9562,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_21","server":"183.245.147.57","port":21003,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_7","server":"185.172.113.100","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_8","server":"185.172.113.100","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_22","ws-opts":{"path":"/rocket","headers":{"host":"YouTube-aweikeji"}},"server":"auto-moble.downloadmovie.cn","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_23","server":"183.245.147.57","port":21001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_9","server":"185.172.113.100","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_24","server":"120.197.130.62","port":21004,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_25","server":"120.197.130.62","port":21001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_26","server":"pp1.zhengzhongfeizhu.xyz","port":34003,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_2","server":"150.230.197.142","port":"53","uuid":"9f35deda-95a1-414f-ce47-b37c48e9b8df","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_27","server":"in01.govrun.work","port":9511,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_28","server":"183.245.147.57","port":21002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_29","server":"117.164.185.220","port":61001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_30","server":"iepl02.pglmamle.xyz","port":9588,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_31","server":"117.164.185.220","port":61002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_32","server":"117.164.185.220","port":61026,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇰🇷_YouTube：全网最强白嫖_1","server":"146.56.155.70","port":"33449","uuid":"e115ada7-9b19-4df9-c58a-cadd4540ec13","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_33","server":"in02.govrun.work","port":9541,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_10","server":"185.172.113.100","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_34","ws-opts":{"path":"/rocket","headers":{"host":"auto-moble.downloadmovie.cn"}},"server":"auto-moble.downloadmovie.cn","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_35","server":"117.164.185.222","port":21003,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_11","server":"185.172.113.100","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"🇰🇷_YouTube：全网最强白嫖_2","ws-opts":{"path":"/","headers":{"host":"YouTube-aweikeji"}},"server":"152.67.221.228","port":"58742","uuid":"0d31b385-c478-456b-f665-f1d62a91e54c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_1","ws-opts":{"path":"/rocket"},"server":"cn01.downloadmovie.cn","port":"65015","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_2","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_1","ws-opts":{"path":"/"},"server":"hk2.qinghuanyun.top","port":"80","uuid":"14abd646-7c17-3192-937a-461dfc007325","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_3","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_4","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_5","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬_YouTube：全网最强白嫖_1","ws-opts":{"path":"/ray","headers":{"host":"810hk05.fx6688.top"}},"server":"810hk05.fx6688.top","port":"443","uuid":"2cc10f9c-fb02-3e45-b619-c3b98cde912a","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_1","ws-opts":{"path":"/"},"server":"hg3.qinghuanyun.top","port":"10043","uuid":"14abd646-7c17-3192-937a-461dfc007325","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_1","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"sjapan01.xn--z4q48lcvp.com","port":"80","uuid":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_6","ws-opts":{"path":"/rocket","headers":{"host":"sgzx-cn02.gatknqh.cn"}},"server":"sgzx-cn02.gatknqh.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬_YouTube：全网最强白嫖_2","ws-opts":{"path":"/ray","headers":{"host":"810hk01.fx6688.top"}},"server":"810hk01.fx6688.top","port":"443","uuid":"2cc10f9c-fb02-3e45-b619-c3b98cde912a","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_2","server":"168.138.211.64","port":"17528","uuid":"81dc8b42-56d4-40e2-f528-6c98d054272d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬_YouTube：全网最强白嫖_3","ws-opts":{"path":"/ray","headers":{"host":"810hk01.fx6688.top"}},"server":"810hk01.fx6688.top","port":"443","uuid":"f8dcfff8-3cb9-3221-bc82-5a58a336d4b9","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_2","ws-opts":{"path":"/"},"server":"hk1.qinghuanyun.top","port":"10020","uuid":"14abd646-7c17-3192-937a-461dfc007325","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_2","server":"103.218.243.21","port":"10003","uuid":"4fe413ef-e3a2-40df-fba0-6d151dd3b2b4","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_7","server":"120.233.7.221","port":"18005","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_8","ws-opts":{"path":"/rocket","headers":{"host":"cn01.downloadmovie.cn"}},"server":"cn01.downloadmovie.cn","port":"65015","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_3","server":"128.1.134.126","port":"6666","uuid":"7fb3b571-cda8-40f6-c9e6-db9765ea8faa","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_4","server":"23.91.100.243","port":"30862","uuid":"3b0f44e4-dd11-429d-c80f-615b10595db9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_9","server":"aafrtpfxr.hkl01i9zjfegelp.5xfsur8v60.hasyaf.cn","port":27101,"cipher":"aes-128-gcm","password":"06cd755d-c5bd-4154-b0d6-3d066bd42c48"}
+  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_10","server":"aafrtpfxr.jpl01i9zjfegelp.5xfsur8v60.hasyaf.cn","port":27001,"cipher":"aes-128-gcm","password":"06cd755d-c5bd-4154-b0d6-3d066bd42c48"}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_1","server":"fn600mliness017.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"8812c0e4e2b0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness017.fnline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_2","server":"fndx600mtwline010tr.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"d0760c7c21f8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndx600mtwline010tr.fnline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_3","server":"fn600mlines020.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"5dac918f6134","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines020.fnline.info"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_3","server":"85.208.108.21","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_1","server":"213.183.53.207","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_4","server":"85.208.108.21","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_2","server":"213.183.53.198","port":9045,"cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_3","server":"213.183.53.198","port":9024,"cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
+  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_1","server":"196.247.59.154","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_4","server":"213.183.53.207","port":9061,"cipher":"aes-256-cfb","password":"4R3hUfZ2FHhDmNcP"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_3","server":"167.88.61.14","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"YouTube：全网最强白嫖","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_5","server":"85.208.108.21","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_6","server":"85.208.108.94","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_7","server":"85.208.108.94","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_11","server":"aafrtpfxr.9pjfo3i9zjfegelp.5xfsur8v60.hasyaf.cn","port":43383,"cipher":"aes-128-gcm","password":"06cd755d-c5bd-4154-b0d6-3d066bd42c48"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_4","server":"38.91.102.74","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇭🇰_YouTube：全网最强白嫖_5","server":"fn600mliness016.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"bd04a7b470fb","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness016.fnline.info"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_4","server":"fn600mliness019.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"61f301daaf4e","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness019.fnline.xyz"}}
+  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_2","server":"196.247.59.154","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_5","server":"167.88.61.14","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_8","server":"85.208.108.21","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_9","server":"85.208.108.93","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_3","server":"134.195.196.107","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_10","server":"85.208.108.21","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_5","server":"213.183.53.198","port":9097,"cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_6","server":"213.183.53.182","port":9084,"cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_5","server":"fn600mliness015.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"696744f948f3","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness015.fnline.vip"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_11","server":"85.208.108.93","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_12","server":"85.208.108.21","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_36","server":"in03.govrun.work","port":9541,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_13","server":"85.208.108.21","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_37","server":"117.164.185.220","port":21003,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_38","server":"in03.govrun.work","port":9511,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_3","server":"c71s3.jamjams3.net","port":"10922","uuid":"633aa237-6edc-4f81-861c-e0667d97f45d","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_14","server":"85.208.108.21","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_15","server":"85.208.108.21","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_39","server":"183.245.147.57","port":21005,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_16","server":"85.208.108.21","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_9","server":"128.1.134.126","port":"6666","uuid":"7fb3b571-cda8-40f6-c9e6-db9765ea8faa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_40","server":"183.245.147.57","port":21004,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_41","server":"120.197.130.62","port":11002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_42","server":"183.245.147.57","port":11002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_17","server":"85.208.108.21","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_43","server":"120.197.130.62","port":21002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_18","server":"85.208.108.21","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_44","server":"iepl01.pglmamle.xyz","port":9531,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_45","server":"120.197.130.62","port":21005,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_46","server":"117.164.185.222","port":21001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_47","server":"in02.govrun.work","port":9511,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_48","server":"iepl02.pglmamle.xyz","port":9532,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_4","server":"143.110.224.127","port":"48919","uuid":"5f57a91d-e94f-4bb7-fa85-55886a3e3387","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_49","server":"117.164.185.222","port":11002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_19","server":"140.83.34.234","port":"50303","uuid":"f8e1bb84-f0f2-41c5-e2bf-34c17b528e45","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_20","server":"85.208.108.21","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_5","server":"143.110.224.127","port":"48919","uuid":"5f57a91d-e94f-4bb7-fa85-55886a3e3387","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_21","server":"85.208.108.21","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_50","server":"117.164.185.220","port":61025,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_51","server":"183.245.147.57","port":61002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_22","server":"140.83.34.234","port":"27384","uuid":"da463c52-34e4-4ace-f08e-c7cdfdf68d86","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_52","server":"pp1.zhengzhongfeizhu.xyz","port":34004,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_53","server":"117.164.185.222","port":61002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_23","server":"140.83.34.234","port":"50303","uuid":"f8e1bb84-f0f2-41c5-e2bf-34c17b528e45","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_54","server":"117.164.185.220","port":11002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_55","server":"183.245.147.57","port":61022,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"YouTube：全网最强白嫖","ws-opts":{"path":"/shopvpn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"103.186.148.106","port":"80","uuid":"67468d89-cf87-443c-baca-49f1e73b5991","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_56","server":"120.197.130.62","port":11003,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_57","server":"pp1.zhengzhongfeizhu.xyz","port":32003,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_58","server":"117.164.185.220","port":11001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_24","server":"132.145.113.238","port":"443","uuid":"84b1b846-748c-45ca-839e-4e21f9acc6c5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇳🇱_YouTube：全网最强白嫖","server":"c71s5.jamjams3.net","port":"10922","uuid":"633aa237-6edc-4f81-861c-e0667d97f45d","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_59","server":"iepl2.pglmamle.xyz","port":9521,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_60","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_6","server":"198.200.51.237","port":"51144","uuid":"5a3e68d5-9ee0-4eea-b4c2-436692179924","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_61","server":"117.164.185.222","port":61001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇯🇵_YouTube：全网最强白嫖_25","server":"132.145.113.238","port":"443","uuid":"84b1b846-748c-45ca-839e-4e21f9acc6c5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_1","server":"134.195.196.178","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"trojan","name":"🇺🇸_YouTube：全网最强白嫖_7","server":"s3.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true,"sni":"static.dingtalk.com"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_62","server":"iepl3.pglmamle.xyz","port":9521,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_63","server":"117.164.185.220","port":41001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_26","server":"185.172.113.100","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_64","server":"117.164.185.222","port":41002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"trojan","name":"🇺🇸_YouTube：全网最强白嫖_8","server":"s1.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇷🇴_YouTube：全网最强白嫖_1","ws-opts":{"path":"/tiktok"},"server":"109.166.39.205","port":"39205","uuid":"548cfd27-e18f-406b-84f6-74de849e27b8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_65","server":"pp1.zhengzhongfeizhu.xyz","port":32001,"password":"7688df6f-bf65-3368-b55e-d78efea6a582","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_66","server":"117.164.185.220","port":21002,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_67","server":"iepl02.pglmamle.xyz","port":9587,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_2","server":"134.195.196.178","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇬🇧_YouTube：全网最强白嫖","server":"89.238.165.226","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_3","server":"134.195.196.178","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_4","server":"134.195.196.178","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_68","server":"183.245.147.57","port":11001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_5","server":"134.195.196.178","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_27","server":"185.172.113.100","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_28","server":"185.172.113.100","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_69","server":"iepl01.pglmamle.xyz","port":9583,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_70","server":"iepl1.pglmamle.xyz","port":9551,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_71","server":"117.164.185.220","port":61028,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_72","server":"iepl3.pglmamle.xyz","port":9551,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_73","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true,"sni":"ip3884414509.mobgslb.tbcache.com"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_74","server":"117.164.185.222","port":11001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_75","server":"103.56.60.185","port":3381,"password":"ab29af390ff9f4a7","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_29","server":"185.172.113.100","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_1","server":"213.183.53.198","port":9018,"cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ss","name":"🇨🇦_YouTube：全网最强白嫖_6","server":"134.195.196.178","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖_10","ws-opts":{"path":"/v2ray","headers":{"host":"avuhk091.xiaohouzi.club"}},"server":"avuhk091.xiaohouzi.club","port":"1558","uuid":"6dc17fdb-9bcd-3231-ad6a-6af308aef4cc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_76","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_77","server":"iepl01.pglmamle.xyz","port":9582,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_9","server":"198.200.51.237","port":"51144","uuid":"5a3e68d5-9ee0-4eea-b4c2-436692179924","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_10","server":"198.200.51.237","port":"51144","uuid":"5a3e68d5-9ee0-4eea-b4c2-436692179924","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_78","server":"iepl03.pglmamle.xyz","port":9585,"cipher":"aes-128-gcm","password":"ovyGQ048"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_11","ws-opts":{"path":"/","headers":{"host":"chat.gs.lilithapp.com"}},"server":"45.11.92.100","port":"80","uuid":"e026af69-5e36-4cd5-d40e-347f2955a3f6","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_12","server":"198.200.51.237","port":"51144","uuid":"5a3e68d5-9ee0-4eea-b4c2-436692179924","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_13","server":"cc4.qweasdzxc.gq","port":45747,"cipher":"chacha20-ietf-poly1305","password":"6ThhE43itV3"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_14","server":"198.200.51.237","port":"51144","uuid":"5a3e68d5-9ee0-4eea-b4c2-436692179924","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_79","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"YouTube-aweikeji"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_30","server":"185.172.113.100","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_2","server":"213.183.53.198","port":9058,"cipher":"aes-256-cfb","password":"dML2sfhbVwvtfNPe"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖_80","server":"183.245.147.57","port":61001,"cipher":"chacha20-ietf-poly1305","password":"d2ca48d5-4621-4a27-aaa2-b849e8c4d846"}
-  - {"type":"vmess","name":"🇷🇴_YouTube：全网最强白嫖_2","ws-opts":{"path":"/tiktok"},"server":"109.166.39.216","port":"39216","uuid":"5022b474-6ba7-4f66-b7a1-04cc4814d2ed","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖_15","server":"198.200.51.237","port":"51144","uuid":"5a3e68d5-9ee0-4eea-b4c2-436692179924","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_13","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_14","server":"85.208.108.21","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_15","server":"85.208.108.90","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_16","server":"85.208.108.21","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_17","server":"85.208.108.21","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_18","server":"85.208.108.21","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_19","server":"85.208.108.21","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_20","server":"85.208.108.94","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_21","server":"85.208.108.94","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_22","server":"85.208.108.94","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_23","server":"85.208.108.21","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_24","server":"85.208.108.90","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_25","server":"85.208.108.21","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_6","server":"167.88.61.14","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_26","server":"85.208.108.94","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_27","server":"85.208.108.94","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_28","server":"85.208.108.21","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_29","server":"85.208.108.93","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_30","server":"85.208.108.21","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_6","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_7","server":"fn600mliness013.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"1b584982dbdc","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness013.fnline.vip"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_31","server":"85.208.108.21","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇷🇺_YouTube：全网最强白嫖_7","server":"213.183.53.182","port":9019,"cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_32","server":"85.208.108.21","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_8","server":"fn600mliness010.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"ee3dfbbe3dca","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness010.fnline.vip"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_33","server":"85.208.108.94","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_9","server":"fn600mliness018.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"55011c8548ff","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness018.fnline.xyz"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_34","server":"85.208.108.21","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_12","server":"aafrtpfxr.9pjfo3i9zjfegelp.5xfsur8v60.hasyaf.cn","port":27002,"password":"06cd755d-c5bd-4154-b0d6-3d066bd42c48","udp":true,"skip-cert-verify":true,"sni":"sdkdns.vip"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_13","server":"q7rxpd.mispeed.org","port":20106,"password":"063508e1-e54e-44a9-b011-09b003160267","udp":true,"skip-cert-verify":true,"sni":"hk01.zhicloud.co"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_14","server":"aafrtpfxr.9pjfo3i9zjfegelp.5xfsur8v60.hasyaf.cn","port":43394,"password":"06cd755d-c5bd-4154-b0d6-3d066bd42c48","udp":true,"skip-cert-verify":true,"sni":"id1.sdkdns.vip"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_35","server":"sjapan01.xn--z4q48lcvp.com","port":35474,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"sjapan01.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_36","server":"paneljapan.xn--z4q48lcvp.com","port":35472,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"paneljapan.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_37","server":"paneljapan.xn--z4q48lcvp.com","port":35473,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"paneljapan.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_38","server":"sjapan01.xn--z4q48lcvp.com","port":35473,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"sjapan01.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_39","server":"paneljapan.xn--z4q48lcvp.com","port":35474,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"paneljapan.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_40","server":"sjapan01.xn--z4q48lcvp.com","port":35475,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"sjapan01.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_41","server":"sjapan01.xn--z4q48lcvp.com","port":35472,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"sjapan01.xn--z4q48lcvp.com"}
+  - {"type":"trojan","name":"🇸🇬_YouTube：全网最强白嫖_4","server":"812hk02.ok365.cyou","port":4433,"password":"4ae94426-bfe5-4e96-b948-dffd9227214a","udp":true,"skip-cert-verify":true,"sni":"812hk02.ok365.cyou"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_15","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34002,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_16","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34001,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_42","server":"jpgmo.crunode.top","port":1400,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"jpgmo.crunode.top"}
+  - {"type":"trojan","name":"🇭🇰_YouTube：全网最强白嫖_6","server":"20.187.95.117","port":8443,"password":"190e2a95-63f0-4a9c-9aef-9f2ec6e542de","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_17","server":"pp1.zhengzhongfeizhu.xyz","port":34003,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_18","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34004,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_43","server":"japanosaka.bpnet.club","port":12001,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"japanosaka.bpnet.club"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_19","server":"pp1.zhengzhongfeizhu.xyz","port":32000,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_20","server":"pp1.zhengzhongfeizhu.xyz","port":34004,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_44","server":"japanosaka.bpnet.club","port":12002,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"japanosaka.bpnet.club"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_21","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_45","server":"japanosaka.bpnet.club","port":12003,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"japanosaka.bpnet.club"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_22","server":"pp1.zhengzhongfeizhu.xyz","port":34001,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_46","server":"japanosaka.bpnet.club","port":12004,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"japanosaka.bpnet.club"}
+  - {"type":"trojan","name":"🇯🇵_YouTube：全网最强白嫖_47","server":"japanosaka.bpnet.club","port":12000,"password":"5685fc2d-3f2d-47e6-80aa-a712a83bcfbf","udp":true,"skip-cert-verify":true,"sni":"japanosaka.bpnet.club"}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_23","server":"pp1.zhengzhongfeizhu.xyz","port":34001,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_YouTube：全网最强白嫖_24","server":"pp1.zhengzhongfeizhu.xyz","port":32001,"password":"7688df6f-bf65-3368-b55e-d78efea6a582","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1125,157 +817,113 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_YouTube：全网最强白嫖_1
-      - 🇭🇰_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖_3
-      - 🇭🇰_YouTube：全网最强白嫖_4
-      - 🇭🇰_YouTube：全网最强白嫖_5
-      - 🇭🇰_YouTube：全网最强白嫖_6
       - 🇨🇳_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
+      - 🇸🇬_YouTube：全网最强白嫖_1
+      - 🇺🇸_YouTube：全网最强白嫖_1
+      - 🇯🇵_YouTube：全网最强白嫖_1
       - 🇨🇳_YouTube：全网最强白嫖_6
+      - 🇸🇬_YouTube：全网最强白嫖_2
+      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇸🇬_YouTube：全网最强白嫖_3
+      - 🇺🇸_YouTube：全网最强白嫖_2
+      - 🇭🇰_YouTube：全网最强白嫖_2
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
-      - 🇸🇬_YouTube：全网最强白嫖
+      - 🇭🇰_YouTube：全网最强白嫖_3
+      - 🇭🇰_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_9
-      - 🇭🇰_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_11
-      - 🇨🇳_YouTube：全网最强白嫖_12
-      - 🇭🇰_YouTube：全网最强白嫖_8
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_13
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_16
-      - 🇯🇵_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_1
+      - 🇹🇼_YouTube：全网最强白嫖_2
+      - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇷🇺_YouTube：全网最强白嫖_1
       - 🇯🇵_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇷🇺_YouTube：全网最强白嫖_2
+      - 🇷🇺_YouTube：全网最强白嫖_3
+      - 🇨🇦_YouTube：全网最强白嫖_1
+      - 🇷🇺_YouTube：全网最强白嫖_4
+      - 🇺🇸_YouTube：全网最强白嫖_3
+      - YouTube：全网最强白嫖
       - 🇯🇵_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_19
-      - 🇨🇳_YouTube：全网最强白嫖_20
-      - 🇨🇳_YouTube：全网最强白嫖_21
       - 🇯🇵_YouTube：全网最强白嫖_7
+      - 🇨🇳_YouTube：全网最强白嫖_11
+      - 🇺🇸_YouTube：全网最强白嫖_4
+      - 🇭🇰_YouTube：全网最强白嫖_5
+      - 🇹🇼_YouTube：全网最强白嫖_4
+      - 🇨🇦_YouTube：全网最强白嫖_2
+      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_8
-      - 🇨🇳_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_23
       - 🇯🇵_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_24
-      - 🇨🇳_YouTube：全网最强白嫖_25
-      - 🇨🇳_YouTube：全网最强白嫖_26
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_27
-      - 🇨🇳_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_29
-      - 🇨🇳_YouTube：全网最强白嫖_30
-      - 🇨🇳_YouTube：全网最强白嫖_31
-      - 🇨🇳_YouTube：全网最强白嫖_32
-      - 🇰🇷_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_33
+      - 🇨🇦_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_34
-      - 🇨🇳_YouTube：全网最强白嫖_35
+      - 🇷🇺_YouTube：全网最强白嫖_5
+      - 🇷🇺_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_11
-      - 🇰🇷_YouTube：全网最强白嫖_2
       - 🇯🇵_YouTube：全网最强白嫖_12
-      - 🇨🇳_YouTube：全网最强白嫖_36
       - 🇯🇵_YouTube：全网最强白嫖_13
-      - 🇨🇳_YouTube：全网最强白嫖_37
-      - 🇨🇳_YouTube：全网最强白嫖_38
-      - 🇺🇸_YouTube：全网最强白嫖_3
       - 🇯🇵_YouTube：全网最强白嫖_14
       - 🇯🇵_YouTube：全网最强白嫖_15
-      - 🇨🇳_YouTube：全网最强白嫖_39
       - 🇯🇵_YouTube：全网最强白嫖_16
-      - 🇭🇰_YouTube：全网最强白嫖_9
-      - 🇨🇳_YouTube：全网最强白嫖_40
-      - 🇨🇳_YouTube：全网最强白嫖_41
-      - 🇨🇳_YouTube：全网最强白嫖_42
       - 🇯🇵_YouTube：全网最强白嫖_17
-      - 🇨🇳_YouTube：全网最强白嫖_43
       - 🇯🇵_YouTube：全网最强白嫖_18
-      - 🇨🇳_YouTube：全网最强白嫖_44
-      - 🇨🇳_YouTube：全网最强白嫖_45
-      - 🇨🇳_YouTube：全网最强白嫖_46
-      - 🇨🇳_YouTube：全网最强白嫖_47
-      - 🇨🇳_YouTube：全网最强白嫖_48
-      - 🇺🇸_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_49
       - 🇯🇵_YouTube：全网最强白嫖_19
       - 🇯🇵_YouTube：全网最强白嫖_20
-      - 🇺🇸_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_21
-      - 🇨🇳_YouTube：全网最强白嫖_50
-      - 🇨🇳_YouTube：全网最强白嫖_51
       - 🇯🇵_YouTube：全网最强白嫖_22
-      - 🇨🇳_YouTube：全网最强白嫖_52
-      - 🇨🇳_YouTube：全网最强白嫖_53
       - 🇯🇵_YouTube：全网最强白嫖_23
-      - 🇨🇳_YouTube：全网最强白嫖_54
-      - 🇨🇳_YouTube：全网最强白嫖_55
-      - YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_56
-      - 🇨🇳_YouTube：全网最强白嫖_57
-      - 🇨🇳_YouTube：全网最强白嫖_58
       - 🇯🇵_YouTube：全网最强白嫖_24
-      - 🇳🇱_YouTube：全网最强白嫖
-      - 🇨🇳_YouTube：全网最强白嫖_59
-      - 🇨🇳_YouTube：全网最强白嫖_60
-      - 🇺🇸_YouTube：全网最强白嫖_6
-      - 🇨🇳_YouTube：全网最强白嫖_61
       - 🇯🇵_YouTube：全网最强白嫖_25
-      - 🇨🇦_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_7
-      - 🇨🇳_YouTube：全网最强白嫖_62
-      - 🇨🇳_YouTube：全网最强白嫖_63
+      - 🇺🇸_YouTube：全网最强白嫖_6
       - 🇯🇵_YouTube：全网最强白嫖_26
-      - 🇨🇳_YouTube：全网最强白嫖_64
-      - 🇺🇸_YouTube：全网最强白嫖_8
-      - 🇷🇴_YouTube：全网最强白嫖_1
-      - 🇨🇳_YouTube：全网最强白嫖_65
-      - 🇨🇳_YouTube：全网最强白嫖_66
-      - 🇨🇳_YouTube：全网最强白嫖_67
-      - 🇨🇦_YouTube：全网最强白嫖_2
-      - 🇬🇧_YouTube：全网最强白嫖
-      - 🇨🇦_YouTube：全网最强白嫖_3
-      - 🇨🇦_YouTube：全网最强白嫖_4
-      - 🇨🇳_YouTube：全网最强白嫖_68
-      - 🇨🇦_YouTube：全网最强白嫖_5
       - 🇯🇵_YouTube：全网最强白嫖_27
       - 🇯🇵_YouTube：全网最强白嫖_28
-      - 🇨🇳_YouTube：全网最强白嫖_69
-      - 🇨🇳_YouTube：全网最强白嫖_70
-      - 🇨🇳_YouTube：全网最强白嫖_71
-      - 🇨🇳_YouTube：全网最强白嫖_72
-      - 🇨🇳_YouTube：全网最强白嫖_73
-      - 🇨🇳_YouTube：全网最强白嫖_74
-      - 🇨🇳_YouTube：全网最强白嫖_75
       - 🇯🇵_YouTube：全网最强白嫖_29
-      - 🇷🇺_YouTube：全网最强白嫖_1
-      - 🇨🇦_YouTube：全网最强白嫖_6
-      - 🇭🇰_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_76
-      - 🇨🇳_YouTube：全网最强白嫖_77
-      - 🇺🇸_YouTube：全网最强白嫖_9
-      - 🇺🇸_YouTube：全网最强白嫖_10
-      - 🇨🇳_YouTube：全网最强白嫖_78
-      - 🇺🇸_YouTube：全网最强白嫖_11
-      - 🇺🇸_YouTube：全网最强白嫖_12
-      - 🇺🇸_YouTube：全网最强白嫖_13
-      - 🇺🇸_YouTube：全网最强白嫖_14
-      - 🇨🇳_YouTube：全网最强白嫖_79
       - 🇯🇵_YouTube：全网最强白嫖_30
-      - 🇷🇺_YouTube：全网最强白嫖_2
-      - 🇨🇳_YouTube：全网最强白嫖_80
-      - 🇷🇴_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_15
+      - 🇹🇼_YouTube：全网最强白嫖_6
+      - 🇹🇼_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_31
+      - 🇷🇺_YouTube：全网最强白嫖_7
+      - 🇯🇵_YouTube：全网最强白嫖_32
+      - 🇹🇼_YouTube：全网最强白嫖_8
+      - 🇯🇵_YouTube：全网最强白嫖_33
+      - 🇹🇼_YouTube：全网最强白嫖_9
+      - 🇯🇵_YouTube：全网最强白嫖_34
+      - 🇨🇳_YouTube：全网最强白嫖_12
+      - 🇨🇳_YouTube：全网最强白嫖_13
+      - 🇨🇳_YouTube：全网最强白嫖_14
+      - 🇯🇵_YouTube：全网最强白嫖_35
+      - 🇯🇵_YouTube：全网最强白嫖_36
+      - 🇯🇵_YouTube：全网最强白嫖_37
+      - 🇯🇵_YouTube：全网最强白嫖_38
+      - 🇯🇵_YouTube：全网最强白嫖_39
+      - 🇯🇵_YouTube：全网最强白嫖_40
+      - 🇯🇵_YouTube：全网最强白嫖_41
+      - 🇸🇬_YouTube：全网最强白嫖_4
+      - 🇨🇳_YouTube：全网最强白嫖_15
+      - 🇨🇳_YouTube：全网最强白嫖_16
+      - 🇯🇵_YouTube：全网最强白嫖_42
+      - 🇭🇰_YouTube：全网最强白嫖_6
+      - 🇨🇳_YouTube：全网最强白嫖_17
+      - 🇨🇳_YouTube：全网最强白嫖_18
+      - 🇯🇵_YouTube：全网最强白嫖_43
+      - 🇨🇳_YouTube：全网最强白嫖_19
+      - 🇨🇳_YouTube：全网最强白嫖_20
+      - 🇯🇵_YouTube：全网最强白嫖_44
+      - 🇨🇳_YouTube：全网最强白嫖_21
+      - 🇯🇵_YouTube：全网最强白嫖_45
+      - 🇨🇳_YouTube：全网最强白嫖_22
+      - 🇯🇵_YouTube：全网最强白嫖_46
+      - 🇯🇵_YouTube：全网最强白嫖_47
+      - 🇨🇳_YouTube：全网最强白嫖_23
+      - 🇨🇳_YouTube：全网最强白嫖_24
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
