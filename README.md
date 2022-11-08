@@ -1,4 +1,4 @@
-## Config files for `Clash` and `V2Ray`
+## Config files for `Clash` & `V2Ray`
 
 ### Subscription URL:
 | Name<img width=85/>  | URL<img width=500/>  |
