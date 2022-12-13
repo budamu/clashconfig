@@ -12,4 +12,4 @@
 | Name<img width=85/> | URL<img width=500/>  |
 | ---- | ---- |
 | **clash-bp / v2ray** | <https://www.youtube.com/channel/UCX0G0TLANlxVDugOTw-hsNw> |
-| **clash-pj / v2ray2** | <https://www.youtube.com/user/microkiawp7/videos> |
+| **clash-pj / v2ray2** | <https://www.youtube.com/@user-hm9yi5vn2q> |
